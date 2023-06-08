@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 241, 238);
+    box-sizing: border-box;
+    font-family: cursive;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul li {
+display: inline-block;
+padding: 10px;
+margin-top: 40px;
+margin-right: 10px;
+padding-right: 10px;
+}
+a{
+    text-decoration: none;
+        color: rgb(127, 175, 127);
+        font-size: 20px;
+}
+section ,article{
+    border-top: 5px solid rgb(181, 216, 129);
+}
