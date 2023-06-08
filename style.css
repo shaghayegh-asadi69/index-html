@@ -7,11 +7,13 @@ body{
 }
 header{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    border-bottom: 4px solid rgb(172, 214, 172);
 }
+navbar{
+height: 10px;}
 ul li {
-display: inline-block;
+display: inline;
 padding: 10px;
 margin-top: 40px;
 margin-right: 10px;
@@ -21,7 +23,28 @@ a{
     text-decoration: none;
         color: rgb(127, 175, 127);
         font-size: 20px;
+        display: inline;
 }
 section ,article{
-    border-top: 5px solid rgb(181, 216, 129);
+    text-align: center;
+    margin: 20px;
+}
+.forest{
+    font-size: 40px;
+}
+
+.logo img {
+    border-radius: 5px;
+width: 200px;
+border: 0;
+margin: 20px;}
+
+img{
+    border: 3px solid rgb(143, 167, 107);
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+}
+.first-art{
+    margin-bottom: 20px;
 }
