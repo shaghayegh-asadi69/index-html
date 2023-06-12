@@ -1,17 +1,34 @@
-//let userColor = prompt("Choose a color!")
+//const welcomingMsg = alert("Welcome to my page ");
+//console.log(welcomingMsg);
 
-//document.body.style.backgroundColor = userColor;
-//console.log(userColor);
-
-//if (userColor === "pink") {document.write("same here")};
-
-const welcomingMsg = alert("Welcome to my page ");
-console.log(welcomingMsg);
-
-//document.write("Hello " + userName + " thank you for trying to save our World");
 
 let text;
-if (confirm ("Are you Sure You Want To Continue?!") == true) {
- text = "You pressed OK!";
+if (confirm("Do you want to join us on instagram?!") == true) {
+  document.write = "Yeeey welcome!";
 } else {
-  text = "You canceled!";}
+  text = "You canceled!";
+}
+
+
+
+let userColor = prompt("Choose a color!")
+
+document.body.style.color = userColor;
+console.log(userColor);
+
+if (userColor === "pink") {document.write("same here")}
+
+
+
+let answer;
+while (answer != 7) {
+  answer = prompt("Guess a number between 1 and 10");
+  if (answer != 7) {
+    alert("try again");
+  } else {
+    alert("congratulations");
+  }
+}
+
+
+
