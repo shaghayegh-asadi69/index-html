@@ -4,9 +4,10 @@
 
 let text;
 if (confirm("Do you want to join us on instagram?!") == true) {
-  document.write = "Yeeey welcome!";
+  //console.log("Yeeey welcome!");
+  alert("Yeeey welcome!");
 } else {
-  text = "You canceled!";
+  alert( "You canceled!");
 }
 
 
